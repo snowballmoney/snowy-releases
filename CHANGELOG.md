@@ -2,6 +2,13 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc.6 · 2026-08-14
+
+The same app as rc.5, published again so it could be tested on Intel Macs as a release of its own.
+
+- Installers for Windows and for Apple Silicon and Intel Macs.
+- No changes to the app since rc.5.
+
 ## 0.1.0-rc.5 · 2026-08-13
 
 A test build with an installer for each kind of computer.
