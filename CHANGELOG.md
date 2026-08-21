@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc2 · 2026-08-21
+
+The meeting panel becomes the place where the meeting happens, local captions get much faster, and Home says plainly what Snowy can do.
+
+- Starting a meeting opens a side panel with a suggested line, a short live transcript and a question box. It stays out of screen shares.
+- Suggestions are ready when the other side stops talking, drawn from the meeting so far and your past notes.
+- Ask during the call: answers come from the live meeting first, then your notes, and name the notes they used.
+- Local captions now arrive word by word instead of a sentence at a time, labelled You and Others.
+- Transcription setup has a Basic mode that picks and downloads the right model for your computer.
+- A card on Home says what works now and what still needs an AI model.
+- "Note Formatting" in Settings is now called Actions.
+- Fixed: discarding a meeting no longer writes it up first, and saving without an AI model no longer interrupts you with a setup prompt.
+- Fixed: buttons that open a Settings page land on that page, and the transcript no longer scrolls away from what you were reading.
+
 ## 0.1.0-rc1 · 2026-08-19
 
 The first release candidate carrying the Snowy name. This was the first version of the app, which was later rebuilt from rc11 on.
