@@ -2,6 +2,19 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc3 · 2026-08-24
+
+The meeting assistant gets two speeds, and each chat knows what it should, including facts that changed after a note was written.
+
+- Fast answers come straight from the meeting; Thinking takes longer and also searches your past notes, naming the ones it used.
+- A Fast answer offers Check past notes, which asks the same question again in Thinking mode.
+- A note's chat knows when something in it was changed in a later meeting, and says so instead of quoting the old fact.
+- The main chat knows both what you owe people and what they promised you.
+- A space or folder chat focuses on the open items in its own notes.
+- Chatting in a very long meeting note no longer resends the whole transcript with every message.
+- Fixed on macOS: the window buttons no longer cover the section title.
+- Fixed: buttons that open Settings on a particular page land on that page.
+
 ## 0.1.0-rc2 · 2026-08-21
 
 The meeting panel becomes the place where the meeting happens, local captions get much faster, and Home says plainly what Snowy can do.
