@@ -2,6 +2,19 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc4 · 2026-08-26
+
+Snowy learns that meetings repeat: a recurring meeting starts already briefed on last time, and long meetings hold up better.
+
+- A recurring meeting shows when it last met and how many items are still open, with a one-click What's still open?
+- The assistant is briefed before anyone speaks with the last meeting's decisions and commitments, and where they stand now.
+- Write-up templates: 1:1, Standup, Sales call, Interview, Planning or standard notes, remembered for the next meeting of the same series.
+- Copy recap for sharing pastes cleanly into Slack or an email.
+- Note search finds meaning, not just matching words, and shows the passage that matched.
+- The meeting assistant gets ready as the meeting starts, not at the first question.
+- Meeting audio that stops mid-meeting (often after the laptop sleeps) restarts itself; if it can't, the panel says "Microphone only".
+- Fixed on Windows: a damaged download no longer looks like a success.
+
 ## 0.1.0-rc3 · 2026-08-24
 
 The meeting assistant gets two speeds, and each chat knows what it should, including facts that changed after a note was written.
