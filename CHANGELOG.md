@@ -2,6 +2,19 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc5 · 2026-08-31
+
+A big simplification: Snowy is rebuilt around one loop, start a meeting and get the write-up.
+
+- Setup asks one plain question (private on this computer, or an online service) and downloads the right speech model for you, without making you wait.
+- The assistant shortcut opens a compact bar: type a question, or press Listen to start a meeting.
+- A redesigned live meeting panel with quick actions: What should I say?, Recap so far and What's still open?
+- The transcript is hidden by default during a meeting; one click shows the last few lines.
+- Home is your meeting history by day, with search in the window header.
+- A meeting opens on its Summary, with a new Follow-up email button that drafts the email for you to edit and send yourself. Snowy never sends anything.
+- Removed: creating notes by hand (notes you already typed still open), write-up templates, and the extra default folders.
+- Calendar sync and audio-file upload are hidden for now.
+
 ## 0.1.0-rc4 · 2026-08-26
 
 Snowy learns that meetings repeat: a recurring meeting starts already briefed on last time, and long meetings hold up better.
