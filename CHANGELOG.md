@@ -2,6 +2,18 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc6 · 2026-09-01
+
+The assistant bar becomes the front door: daily use starts and ends at the small bar on top of your screen.
+
+- After setup, the bar appears at every launch, one click from recording. The main window opens when you ask for it, or when a meeting ends with a write-up to read.
+- Clicking the tray icon shows the bar.
+- The bar is visible in screen shares by default; a new Hide from screen sharing switch hides the bar and the meeting panel.
+- While a meeting records, the bar turns into the meeting panel in place.
+- Listen is now called Start meeting.
+- A warning icon on the bar lists what's left to set up, and speech model downloads show their progress there.
+- Settings has a cleaner look, and Replay onboarding runs setup again while your notes, keys and history stay.
+
 ## 0.1.0-rc5 · 2026-08-31
 
 A big simplification: Snowy is rebuilt around one loop, start a meeting and get the write-up.
