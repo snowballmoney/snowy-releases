@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc7 · 2026-09-02
+
+Answers come at two speeds, the bar and meeting panel turn to dark glass, and setup comes down to a single API key.
+
+- Entering a provider key sets up every feature with a suitable model; a choice you made yourself is kept.
+- A model chip where each model is used (chat, the meeting panel, the follow-up email) replaces the model settings pages.
+- The meeting panel has a Fast or Thinking switch, and Think deeper refines a fast answer.
+- Answers appear as formatted cards and stay as a thread you can scroll back through.
+- An eye toggle lets a question look at your screen too (off by default).
+- Resume meeting records another session into the same note, with one write-up.
+- Ask the chat to change a shortcut or open a Settings page, and it does.
+- Shortcuts are one list: click one and press the new keys. Setup lets you pick a text size.
+- Fixed: Back to notes works at larger text sizes.
+
 ## 0.1.0-rc6 · 2026-09-01
 
 The assistant bar becomes the front door: daily use starts and ends at the small bar on top of your screen.
