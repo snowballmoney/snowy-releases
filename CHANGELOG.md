@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc8 · 2026-09-11
+
+The meeting panel is rebuilt to see every screen and answer in one clear shape, and the app learns to update itself.
+
+- With the eye on, answers can read every display (up to three), and the panel hides itself from that picture.
+- One answer shape: a direct line, up to four key facts, and the exact words to say, with a copy button.
+- A simpler panel: the ask bar with quick actions, the answer thread, and one toolbar.
+- Fast answers give up after 30 seconds and Thinking answers after 90, instead of spinning.
+- Cmd/Ctrl+Shift+K shows and hides the bar out of the box, and the bar can be made wider or narrower.
+- Automatic updates: Snowy checks at launch and every four hours and installs on your click. Mac builds can check but not install yet.
+- Search finds a note from a question in plain words, and untitled meetings are named by date and time.
+- macOS: the Globe key shows the bar only on a tap, so Fn shortcuts work again.
+- Fixed: notes failing on GPT-5.6, and light text on the light theme.
+
 ## 0.1.0-rc7 · 2026-09-02
 
 Answers come at two speeds, the bar and meeting panel turn to dark glass, and setup comes down to a single API key.
