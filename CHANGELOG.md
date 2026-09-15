@@ -2,6 +2,19 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc9 · 2026-09-15
+
+The meeting panel answers like an advisor, transcripts get a second careful pass, meeting audio is kept with its note, and updates are found again.
+
+- Asked what to say, the panel gives two or three sentences in your own voice first, then the reasons, each tied to something said in the meeting.
+- Setup asks your language first and downloads the right speech models for it; English speakers had been given the multilingual ones.
+- After a meeting transcribed on your computer, a slower, more accurate model goes over the whole recording and replaces the live captions (on by default).
+- Each meeting's audio is saved as one MP3 with its note, with playback, Download and Show in folder; a switch in Settings turns it off.
+- The provider card in Settings is the switch: click one that has a key to use it. OpenRouter is now a provider like the others.
+- Chat and write-ups use cloud AI only; speech recognition still runs on your computer.
+- Updates find the next release again, and a banner offers Download, then Restart to update. Install rc9 by hand once.
+- Fixed: notes on gpt-5.5 no longer fail.
+
 ## 0.1.0-rc8 · 2026-09-11
 
 The meeting panel is rebuilt to see every screen and answer in one clear shape, and the app learns to update itself.
