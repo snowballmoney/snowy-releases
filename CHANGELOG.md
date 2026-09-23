@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc10 · 2026-09-23
+
+The bar becomes the Snowy dot, one AI model runs everything, the cue card can search the web, and local AI models return.
+
+- A small dot floats over your calls: click to start recording, click again to end, right-click for the menu.
+- The cue card (the meeting panel) is its own window beside the dot, and can be resized.
+- A silent meeting ends itself after 10 minutes by default; choose 5, 20, 30 or never in Settings.
+- One AI model for chat, the cue card, notes, titles and the follow-up email, picked from the chip in the chat bar.
+- The cue card can search the web through your provider. It is off at the start of each meeting, and sources appear under the answer.
+- Local AI models are back, each labelled with the memory it needs and what it gives up.
+- New checks: Test microphone, Test system audio and Test transcription.
+- Speech setup tells the truth: a missing key or model reads "Needs key" or "Needs download" instead of "Active".
+- Fixed: the transcript of a meeting started from the dot is saved every 30 seconds, and a provider's error shows its own message.
+
 ## 0.1.0-rc9 · 2026-09-15
 
 The meeting panel answers like an advisor, transcripts get a second careful pass, meeting audio is kept with its note, and updates are found again.
