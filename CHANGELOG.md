@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc11 · 2026-09-28
+
+rc11 is the first build of the rebuilt Snowy app, and the first that runs on a Mac as well as on Windows.
+
+- A meeting companion with a small dock, a Command Bar, a live transcript, Say Next, Assist, questions with citations, automatic summaries and titles, follow-up email drafts and memory across your meetings.
+- Transcription runs on your computer. The speech model (about 630 MB on most computers) is downloaded and checked at first start; English uses NVIDIA Parakeet.
+- A Meetings window with search, and each meeting's Summary, Transcript, Recordings and Usage, with export, delete and resume.
+- Bring your own AI: OpenRouter (browser sign-in or key) or an OpenAI key.
+- Meeting detection for Zoom, Teams, Google Meet and Webex, which always asks and never starts on its own.
+- Screen context for typed questions, opt-in per session.
+- Settings for audio devices with live level bars, shortcuts, launch at login and running setup again.
+- Fixed before release: a freeze a few minutes into a meeting, and transcript text that arrived 7 to 20 seconds late.
+- On a Mac, meeting audio needs macOS 14.2 or later. This build has no automatic updates.
+
 ## 0.1.0-rc10 · 2026-09-23
 
 The bar becomes the Snowy dot, one AI model runs everything, the cue card can search the web, and local AI models return.
