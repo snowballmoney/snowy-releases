@@ -2,6 +2,19 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc12 · 2026-09-30
+
+Better speech recognition, no more echo without headphones, and updates that install themselves.
+
+- English and 24 other European languages use NVIDIA Parakeet on computers that transcribe on the processor; words appear about 1.5 seconds after they are spoken instead of 7 to 20.
+- No more echo: without headphones, what the other side said no longer shows up again under "You" (Settings › Audio, on by default).
+- The live transcript grows in place instead of retyping itself every second or two.
+- Meetings no longer freeze or drift, and a stalled speech recognizer restarts itself.
+- Updates download in the background and install when you choose Restart and update, never during a meeting.
+- Settings › Audio shows which speech model is in use and why; download, pause, resume or delete models there.
+- If your AI provider refuses a model, Snowy moves to the next one and Settings › AI says which.
+- Smaller fixes: the Windows installer has the Snowy icon, and no grey squares around the Command Bar on light backgrounds.
+
 ## 0.1.0-rc11 · 2026-09-28
 
 rc11 is the first build of the rebuilt Snowy app, and the first that runs on a Mac as well as on Windows.
