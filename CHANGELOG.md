@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc13 · 2026-10-01
+
+This release is about the AI during and after a meeting: recaps by topic, questions that see the whole meeting, and a quicker Say Next.
+
+- Summaries become recaps by topic: where each topic stands, decisions with their reasons, blockers and risks, follow-ups with owner and due date, and open questions.
+- Questions see the whole meeting (up to about two hours) and understand follow-ups such as "and who is doing that?".
+- Say Next and Assist respond to the last 90 seconds, so a suggestion answers what was just asked.
+- The first Say Next of a meeting is as quick as the later ones.
+- The live transcript breaks into paragraphs instead of one long block.
+- A simpler Command Bar; meeting detection always asks before anything starts.
+- Settings › AI › Models offers a list of recommended models with plain names and what each is good at.
+- Setup offers to open Snowy when you sign in to your computer.
+- Install this version by hand: rc12 doesn't offer it as an update.
+
 ## 0.1.0-rc12 · 2026-09-30
 
 Better speech recognition, no more echo without headphones, and updates that install themselves.
