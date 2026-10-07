@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc14 · 2026-10-07
+
+Snowy now knows your Google Calendar, works with the AI of your choice, turns recordings into meetings, and writes recaps that fit the kind of meeting.
+
+- Google Calendar (read-only): see today's and tomorrow's meetings, and from 15 minutes before, Join the call and Start transcribing. The meeting takes the event's title and guests.
+- Choose any AI: sign in with OpenRouter, paste a key for OpenAI, Claude, Gemini, Grok, Mistral, Groq or DeepSeek, or run a free model on your own computer through Ollama.
+- Until an AI is set up, meetings are still recorded and transcribed, and Summarize now writes the recap later.
+- Import a recording (MP3, M4A, WAV, MP4, MOV and more) to transcribe it on your computer and recap it.
+- Recaps fit the meeting: General, Sales call, 1:1, Interview, Stand-up or Lecture, plus types of your own.
+- Share a recap: copy it, save it as a file, print it or save a PDF, or draft the follow-up email.
+- A meeting that ends offline is summarized once the connection is back.
+- Hide Snowy from screen sharing with the eye icon (off by default).
+- Resize the assistant, and choose a larger text size in Settings.
+
 ## 0.1.0-rc13 · 2026-10-01
 
 This release is about the AI during and after a meeting: recaps by topic, questions that see the whole meeting, and a quicker Say Next.
