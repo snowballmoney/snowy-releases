@@ -2,6 +2,18 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc15 · 2026-10-08
+
+Fixes for the first problems found in rc14, plus a log you can send with a bug report.
+
+- The right speech model: setup now starts in English and names the model each language choice gets. A copy still set to detect the language automatically is asked once to run setup again; your meetings and settings stay.
+- Detect automatically now uses Parakeet European, which tells 25 languages apart as people speak.
+- When the language changes, the model already on your computer keeps transcribing while the new one downloads.
+- Long recaps finish: a reply that is cut off or repeats itself is asked for again, shorter, and Snowy says so plainly if that fails too.
+- Mac: with Hide from screen sharing on, the window's outline no longer shows in the shared picture.
+- A log for bug reports, kept 15 days. Keep a detailed log adds what Snowy did, never what was said in a meeting.
+- This version looks for updates on the public downloads page.
+
 ## 0.1.0-rc14 · 2026-10-07
 
 Snowy now knows your Google Calendar, works with the AI of your choice, turns recordings into meetings, and writes recaps that fit the kind of meeting.
