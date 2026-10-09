@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc16 · 2026-10-09
+
+The newest AI models, a one-button start from the calendar, and fixes for a Mac window that could freeze.
+
+- Newer AI models: Claude Sonnet 5.5 and Opus 5.5, GPT-6.1 Sol, and the latest Gemini, Grok and DeepSeek. Model settings go back to Automatic once, and later models arrive by themselves.
+- Settings › AI › Models has Reset to defaults.
+- Join & start: two minutes before a calendar meeting, one button opens the call and starts Snowy with the meeting's title and people. Snowy still never starts on its own.
+- The follow-up email reads right: no raw formatting and no transcript references.
+- A Back button in the title bar, and the mouse's back button works too.
+- A notice when meeting audio stays silent while the microphone hears speech, naming what to check.
+- Every computer with 8 GB of memory now gets the more accurate Parakeet speech model.
+- Mac: no frozen window from a stuck sound system or a permission prompt, microphones are listed again, and live text keeps up behind the call window.
+- Windows: no white rectangle after start-up.
+
 ## 0.1.0-rc15 · 2026-10-08
 
 Fixes for the first problems found in rc14, plus a log you can send with a bug report.
