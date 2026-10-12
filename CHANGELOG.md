@@ -2,6 +2,14 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc17 · 2026-10-12
+
+rc17 replaces rc16, which was withdrawn: its Windows build could open with a blank assistant window, and its Mac build quit a second after launch. It carries everything rc16 brought.
+
+- The app starts on every platform, every time, and a window that can't start says so in Snowy's log instead of staying blank.
+- Includes all of rc16: the newest AI models, Join & start from the calendar, a cleaner follow-up email, the Back button, the silent meeting audio notice, Parakeet on more computers, and the Mac freeze fixes.
+- Install over rc15 or rc16 by hand, or take the update when rc15 offers it; your meetings and settings stay. An installed rc16 isn't offered the update.
+
 ## 0.1.0-rc16 · 2026-10-09
 
 The newest AI models, a one-button start from the calendar, and fixes for a Mac window that could freeze.
