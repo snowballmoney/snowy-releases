@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc18 · 2026-10-15
+
+A ChatGPT or Claude plan can now pay for Snowy's answers with no API key to copy, and live help brings its own expertise.
+
+- Sign in with ChatGPT: a Plus or Pro plan runs answers, suggestions and recaps. Snowy tells you when the plan's limit is reached and stops; nothing is billed elsewhere.
+- Use a Claude plan: a Claude Pro or Max plan works through Claude Code, Anthropic's own program, installed and signed in on your computer. Snowy never sees your Claude sign-in, and screen context is off on this connection.
+- Cloud AI comes first in setup and Settings › AI, as the recommended choice.
+- Live help can add what the model knows, marked as its own ("From experience: …") and kept apart from what was said in the meeting.
+- Recaps report where the meeting ended up: a corrected number or a moved deadline shows in its final state.
+- Say Next is shorter, and it can recall facts from earlier in the meeting.
+- Speed and quality now changes how long the models think, on every provider; Save uses GPT-6 Luna on OpenAI and ChatGPT.
+- Fixed: GPT-5.6 and GPT-6 on an OpenAI key work for live help again.
+- Fixed: deleting a meeting stops a file import into it, and Reset also forgets the Google Calendar sign-in.
+
 ## 0.1.0-rc17 · 2026-10-12
 
 rc17 replaces rc16, which was withdrawn: its Windows build could open with a blank assistant window, and its Mac build quit a second after launch. It carries everything rc16 brought.
