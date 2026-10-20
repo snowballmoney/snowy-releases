@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc19 · 2026-10-20
+
+Setup and the first meeting explain themselves, Snowy has one mark everywhere, and meeting memory now helps every action.
+
+- The dock says Listening, Paused or Problem in words, and the status card says whether the audio is being saved.
+- When a meeting ends, a Meeting saved card shows how the recap stands, with Open recap or Set up AI.
+- Your first meeting opens on a short checklist that ticks as you go.
+- Setup shows accounts and keys first, then offers to connect Google Calendar.
+- One Snowy mark everywhere: in the app, the window, taskbar and tray icons, the installer and the macOS app icon.
+- What Snowy writes after a meeting is called a recap everywhere.
+- With the brain icon on, Say Next and Assist draw on your other meetings too, citing each one by title and date.
+- A browser sign-in can be cancelled, and the page the browser shows says what is really happening.
+- The main window's meeting button reads Open current meeting while one is running.
+
 ## 0.1.0-rc18 · 2026-10-15
 
 A ChatGPT or Claude plan can now pay for Snowy's answers with no API key to copy, and live help brings its own expertise.
