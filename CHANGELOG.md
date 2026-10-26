@@ -2,6 +2,21 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc20 · 2026-10-26
+
+Snowy Brain gets a knowledge base, recaps are shorter by default, the follow-up email proposes the people invited, and Snowy tells you when an update is ready.
+
+- Knowledge base: add PDF, Word, PowerPoint, text or Markdown documents in Settings › Snowy Brain. Answers can draw on them and cite the page or slide. Documents stay on your computer.
+- Web research for typed questions with OpenRouter or a ChatGPT plan, off by default. Only search words go to the search, never the meeting.
+- Ask the assistant questions before a meeting starts.
+- With Snowy Brain on, questions know your meetings and your calendar for the coming week.
+- People in Snowy Brain keeps one name per email address, learned from invitations or given by you.
+- Recaps are Brief by default, with Standard and Detailed in Settings › AI › Recaps.
+- Share › Email participants proposes the people invited, signed with the name you give in setup; check it, then send it from your mail app.
+- Stop any answer while it is being written.
+- An update notice at the foot of the main window; nothing restarts during a meeting.
+- Speaker labels (beta, off by default) tell the voices on the other side apart as Speaker 1, 2, 3, and you can name them.
+
 ## 0.1.0-rc19 · 2026-10-20
 
 Setup and the first meeting explain themselves, Snowy has one mark everywhere, and meeting memory now helps every action.
