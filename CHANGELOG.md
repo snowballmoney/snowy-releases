@@ -2,6 +2,15 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc21 · 2026-10-27
+
+A small release: a greeting by name, and fixes for some Claude answers and some PDFs. Everything else is as in rc20.
+
+- The title bar greets you by name; click it to change the name. It isn't an account.
+- Fixed: with a Claude plan or an Anthropic key, an answer Snowy couldn't read is asked for once more, and if that fails too you get a plain message instead of a technical error.
+- Fixed: a PDF the reader couldn't handle is now read page by page another way, and Snowy says what it couldn't read.
+- The knowledge base is marked as a beta in Settings › Snowy Brain. Documents stay on your computer.
+
 ## 0.1.0-rc20 · 2026-10-26
 
 Snowy Brain gets a knowledge base, recaps are shorter by default, the follow-up email proposes the people invited, and Snowy tells you when an update is ready.
