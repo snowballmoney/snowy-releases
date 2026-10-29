@@ -2,6 +2,21 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc22 · 2026-10-29
+
+Ask about your meetings in plain words, and name who spoke after a meeting so the recap knows who decided what.
+
+- With Snowy Brain on, ask about a meeting by its day or title, what a person said, what you owe or were promised, where something stands, or for a short brief before your next meeting.
+- After a meeting, name each unknown voice, with a sample to listen to. The recap then says who decided what and gives each follow-up to the right person.
+- Earlier meetings can be named too, and their recaps written again with the names.
+- People has a page of its own: search, a card for each person with company, role and links, and your notes about them, which never go to your AI.
+- The Meetings page shows your day beside the list, with Join and Start.
+- A clearer meeting page, with follow-ups you can tick off and a pencil to edit any recap line.
+- An optional role and what you work on help live suggestions fit your work.
+- Fixed: ending a meeting shows Saving… instead of looking stuck, and Problem says what the problem is.
+- Fixed: after a display change, the bar no longer lets clicks through to the window behind it.
+- Fixed: invitees' email addresses no longer reach your AI, long histories stay quick, and search finds every word you type.
+
 ## 0.1.0-rc21 · 2026-10-27
 
 A small release: a greeting by name, and fixes for some Claude answers and some PDFs. Everything else is as in rc20.
