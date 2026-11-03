@@ -2,6 +2,20 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc23 · 2026-11-03
+
+Your meetings' recaps in your other AI apps, if you turn that on, and a clearer recap that starts with its action items.
+
+- Snowy in other AI apps (off by default): connect ChatGPT (Codex), Claude Desktop, VS Code, Cursor, LM Studio or Hermes with one click in Settings › Connected apps, and they can search your recaps.
+- It only reads, on this computer, and never shares transcripts, documents, your notes about people, email addresses or phone numbers.
+- Recaps start with their action items, each with its owner's initials and a due-date chip, and links under the recap's head jump to each section.
+- Assign or change an action item's owner; your choice stays when the recap is written again.
+- One tap names a voice after a meeting, with Undo.
+- While speaker labels (beta) are off, a line under the title bar offers them, with what they cost.
+- Meetings recorded while your calendar couldn't be reached get their invitees afterwards.
+- Settings › Privacy opens with six short lines on what Snowy shares, and Connected apps lists every app in one tidy row.
+- Fixed: Google Calendar asks to be connected again when its sign-in ends, a recap missing a part no longer blanks the window, and the first meeting after changing speaker labels starts.
+
 ## 0.1.0-rc22 · 2026-10-29
 
 Ask about your meetings in plain words, and name who spoke after a meeting so the recap knows who decided what.
