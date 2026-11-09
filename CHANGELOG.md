@@ -2,6 +2,24 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc24 · 2026-11-09
+
+Move Snowy to a new computer, let it start recording by itself, and get faster answers that read only what each question needs.
+
+- Move to another computer: Settings › Privacy › Export all data writes one file, with a password if you like; on the new computer, setup offers Import from another computer. Sign-ins and keys never travel in the file.
+- Start recording by itself (off by default): with Settings › General › Start recording automatically on, a call with your microphone on for 10 seconds starts the meeting, with Discard for its first minute, and it ends a minute after the call goes quiet.
+- Prompts only while the call is live: a meeting window left open after the call no longer asks to start, and once the call goes quiet the bar offers to end the meeting.
+- Faster answers: live help on a ChatGPT plan and Snowy Brain on a Claude plan answer in a few seconds, and a question plainly about the world right now (a price, the weather, a release) goes straight to your AI's web search with nothing from your meetings or your screen.
+- Snowy Brain is always on, and the web and picture icons are gone: two switches in Settings › Privacy, on by default, and Snowy looks at your screen only for a question plainly about it.
+- Optional: TypeSafe (beta, off, your own key) picks the right context for a question in under a second; only the text of your questions goes to it.
+- Transcribe a recording: Import recording is back on the Meetings page, for an audio or video file.
+- Recap length Auto, the new default: Brief under 45 minutes, Standard from 45.
+- A one-to-one call names the other side by itself, with Undo.
+- Snowy Local is the new name of the server your AI apps search; five switches under it, all off by default, say what they may read. Your connected apps now show on the Meetings page, and OpenClaw connects in one click.
+- Connecting a Claude plan is explained step by step, with the window and the command each step needs, and the dialog connects by itself once Claude Code is installed and signed in.
+- Larger text by default, and everything grows with the text size: icons, menus, choice fields, the bar and the dock.
+- Fixed: the first meeting on a new computer no longer ends while the speech model downloads; the accurate speech model comes back after one slow moment; speaker labels no longer stop on Apple Silicon Macs; deleted meetings are wiped from the search index and storage; the bar's answer cards are solid and a sentence's many citation chips wrap.
+
 ## 0.1.0-rc23 · 2026-11-03
 
 Your meetings' recaps in your other AI apps, if you turn that on, and a clearer recap that starts with its action items.
