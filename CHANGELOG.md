@@ -2,6 +2,18 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc25 · 2026-11-12
+
+Snowy works out which of your meetings a question means before it asks your AI, and one button in the bar says what it may use: your past meetings, your screen and the web.
+
+- Memory, Screen and Web in one button: without a TypeSafe key, one button after Say Next holds what Snowy can use, each Auto (Snowy decides), Always or Off. A source on Always or Off shows its small icon in the button.
+- Every answer says what it used: chips under your question name your screen, this meeting or how many meetings, the web, or nothing of yours.
+- The right meeting: "yesterday's meeting", "last week's sync" or "the retro" is worked out from your own meeting list, in English, Spanish and German, and the answer reads that meeting's passages that match your words, best first. A question about one meeting sends about half the text it did.
+- With no meeting running, a question gets your screen (its switch on) unless it plainly has nothing to do with it. A Claude plan sees your screen too, in the request only.
+- Optional: TypeSafe (beta, your own key) has a card in Settings › AI, a row under Connected apps, a step in setup and a banner that offers it. Only the text of your questions, and whether a meeting is running, go to it.
+- Fixed: a ChatGPT plan's usage limit is said plainly, and signing in at the limit still connects your account; answers keep your question's language; a window you picked for Screen is never swapped for a whole screen; a slow connection no longer waits two minutes for an answer; Join opens the call in the browser profile signed in to your calendar's account, or the one you choose.
+- Known limits: a question about a topic across several meetings may miss some of them; questions naming a meeting, a day or a person are the most reliable.
+
 ## 0.1.0-rc24 · 2026-11-09
 
 Move Snowy to a new computer, let it start recording by itself, and get faster answers that read only what each question needs.

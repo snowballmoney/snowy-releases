@@ -65,7 +65,8 @@ Pick the one for your computer. The download starts straight away and is always 
 - **Say Next** suggests what you could say next, from what was just said.
 - **Assist** sums up where the conversation stands and what to ask next.
 - **Ask anything** about the meeting, and see the lines each answer comes from.
-- **Your screen**, only when you turn on the eye, so a typed question can include it.
+- **What Snowy can use:** one button in the bar sets Memory (your past meetings, people, calendar and documents), Screen and Web to Auto, Always or Off, and every answer says what it used.
+- **Your screen:** with no meeting running, a question you type can include your screen while the screen switch in Settings › Privacy is on; during a meeting, only a question plainly about your screen gets it.
 
 **Recaps**
 - Written when the meeting ends: the overview, decisions, action items with owner and due date, and open questions.
@@ -85,12 +86,14 @@ Pick the one for your computer. The download starts straight away and is always 
 
 **Calendar**
 - Connect Google Calendar (read-only) to see your day beside your meetings.
-- Join & start opens the call and starts Snowy with the meeting's title and invitees.
+- Join & start opens the call in the browser profile signed in to your calendar's account and starts Snowy with the meeting's title and invitees.
+- Start recording by itself (off by default): with Settings › General › Start recording automatically on, a call with your microphone on for 10 seconds starts the meeting, with Discard for its first minute, and it ends a minute after the call goes quiet.
 
 **The AI you choose**
 - Sign in with a ChatGPT Plus or Pro plan, or use a Claude Pro or Max plan through Claude Code.
 - Or bring a key for OpenRouter, OpenAI, Anthropic, Gemini, Grok, Mistral, Groq or DeepSeek.
 - Or run a model on your own computer with Ollama.
+- Optional: the smart route (TypeSafe, beta, your own key) picks the right context for each question.
 
 **Connected apps**
 - With one click, let ChatGPT (Codex), Claude Desktop, VS Code, Cursor, LM Studio or Hermes search your recaps. Off by default, read-only, on this computer.
@@ -102,9 +105,11 @@ Pick the one for your computer. The download starts straight away and is always 
 - **Your audio stays on your computer.** Speech is transcribed on your computer, and recordings, if you keep them, are saved there.
 - **Your meetings live on your computer.** Transcripts, recaps, People and documents are stored there. There is no Snowy account and no usage tracking.
 - **What goes to your AI.** When you ask for help or a recap, the text it needs (the transcript and the notes that matter) goes to the AI provider you picked, with your own plan or key. With a model on your computer, nothing leaves it.
-- **Only what you allow.** Your screen goes only when you turn on the eye. Web research, if you turn it on, sends only the search words to the search.
+- **Only what you allow.** A picture of your screen goes with a question you type while no meeting is running, and during a meeting only with a question plainly about your screen, while the screen switch is on; Screen on Off in the bar sends none. Web research, while its switch is on, sends only the search words to the search.
+- **The smart route (TypeSafe, beta, off by default),** with your own key: the text of your questions, and whether a meeting is running, go to TypeSafe to pick the right context. Not the meeting's words, your screen or your documents.
 - **Some things never go to the AI:** your notes about people, and the email addresses of the people invited.
 - **Connected apps see recaps only:** titles, dates, recaps and names. Never transcripts, documents, your notes about people, email addresses or phone numbers.
+- **Move to another computer:** Settings › Privacy › Export all data writes one file, with a password if you like; on the new computer, setup offers Import from another computer. Sign-ins and keys never travel in the file.
 - **Keys and sign-ins** are kept in your computer's secure storage: Keychain on a Mac, Credential Manager on Windows.
 
 <br>
