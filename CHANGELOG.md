@@ -2,6 +2,21 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc26 · 2026-11-18
+
+A new look for the main window, and the bar always one action away: collapsed, it is a tab on the edge of your screen.
+
+- A new look: a sidebar for Meetings, People, Knowledge and Connected apps, one type scale with icons that grow with the text, and Snowy's own font, Inter, on every computer. Settings has one layout, and speaker labels are in Settings › AI.
+- Home puts the meeting that's on first, with Join and Join & start (open the call and transcribe it in one click), and what's coming up today and tomorrow beside it.
+- A meeting opens on its recap, with the transcript one press away and Ask as a tab beside Recap and Recordings.
+- Send follow-up, a page of its own: Snowy builds a designed email from your recap (the overview, the decisions, the action items with who and by when) in one of three looks, with your note on top. Open a draft in your mail app and paste it in with its design, or copy it, styled or as plain text. The AI no longer writes it.
+- People shows the list and the person side by side, with what's still open with them, their meetings and your notes. Knowledge and Connected apps have pages of their own.
+- Collapsed, the bar is a tab on the edge of your screen, in Snowy's colours: hover it for Start meeting, click it to open the bar, drag it to another edge (on Windows, slide it along its edge or throw it).
+- The bar is always one action away: the tray or menu-bar icon, the Dock, Show Snowy bar and the shortcut bring it to the screen your mouse is on and never hide it. On a Mac it shows over a full-screen app. While a meeting runs, the tray shows Recording with its time, Pause or Resume, and End meeting.
+- Windows: the installer and the app are code-signed; the publisher is Snowball Finance, Inc. Windows may still show "Windows protected your PC" for a while, until it knows the new publisher; the box now names it.
+- Fixed: no frame round the bar on Windows after a click or a drag, and Alt+F4 no longer closes it for good; a question naming a person and a meeting reads that meeting; Screen or Web on Off is never overruled; a person named by the start of their first name is found; Join finds the browser profile signed in to your Google account, in Chrome or Edge.
+- Known limits: the tab attaches to the left, right and bottom edges, not the top; a question about a topic across several meetings may miss some of them.
+
 ## 0.1.0-rc25 · 2026-11-12
 
 Snowy works out which of your meetings a question means before it asks your AI, and one button in the bar says what it may use: your past meetings, your screen and the web.

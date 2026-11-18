@@ -67,12 +67,13 @@ Pick the one for your computer. The download starts straight away and is always 
 - **Ask anything** about the meeting, and see the lines each answer comes from.
 - **What Snowy can use:** one button in the bar sets Memory (your past meetings, people, calendar and documents), Screen and Web to Auto, Always or Off, and every answer says what it used.
 - **Your screen:** with no meeting running, a question you type can include your screen while the screen switch in Settings › Privacy is on; during a meeting, only a question plainly about your screen gets it.
+- **Always one action away:** collapsed, the bar is a tab on the edge of your screen; the tray or menu-bar icon, the Dock or the shortcut bring it to the screen your mouse is on.
 
 **Recaps**
 - Written when the meeting ends: the overview, decisions, action items with owner and due date, and open questions.
 - Made for the kind of meeting: General, Sales call, 1:1, Interview, Stand-up or Lecture, or a type of your own.
 - Brief, Standard or Detailed. Edit any line, tick off action items, assign owners.
-- Share it: copy it, save it as a file or PDF, or draft a follow-up email to the people invited.
+- Share it: copy it, save it as a file or PDF, or send a follow-up: a designed email from the recap, with your note on top, to paste into a draft in your mail app.
 
 **Snowy Brain**
 - Ask across all your meetings: what was decided on a given day, what someone said, what you owe or were promised.
@@ -80,7 +81,7 @@ Pick the one for your computer. The download starts straight away and is always 
 - A knowledge base (beta): add PDF, Word, PowerPoint, text or Markdown files, and answers cite the page.
 
 **People**
-- Everyone from your meetings and invitations in one place, with company, role and your own notes.
+- Everyone from your meetings and invitations in one place, with company, role and your own notes; pick someone to see what's still open with them and your meetings together.
 - After a meeting, name who spoke with one tap per voice, and the recap says who decided what.
 - Speaker labels (beta, off by default) tell the voices on the other side apart.
 
@@ -133,7 +134,7 @@ Pick the one for your computer. The download starts straight away and is always 
 
 **On Windows**
 1. Open the file you downloaded (`Snowy-Windows-Setup.exe`) from your **Downloads** folder.
-2. If a blue box says **"Windows protected your PC"**, choose **More info**, then **Run anyway**. The installer isn't code-signed yet; it is safe to continue.
+2. If a blue box says **"Windows protected your PC"**, choose **More info**, then **Run anyway**. The installer is code-signed by Snowball Finance, Inc.; Windows shows this box for a while, until it knows the new publisher.
 3. Follow the installer. Snowy opens when it is done.
 
 **Updates**
