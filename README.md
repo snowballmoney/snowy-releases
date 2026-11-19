@@ -64,7 +64,7 @@ Pick the one for your computer. The download starts straight away and is always 
 **Live help, when you ask**
 - **Say Next** suggests what you could say next, from what was just said.
 - **Assist** sums up where the conversation stands and what to ask next.
-- **Ask anything** about the meeting, and see the lines each answer comes from.
+- **Ask anything** about the meeting; turn on Show sources in answers to see the lines and pages each answer comes from.
 - **What Snowy can use:** one button in the bar sets Memory (your past meetings, people, calendar and documents), Screen and Web to Auto, Always or Off, and every answer says what it used.
 - **Your screen:** with no meeting running, a question you type can include your screen while the screen switch in Settings › Privacy is on; during a meeting, only a question plainly about your screen gets it.
 - **Always one action away:** collapsed, the bar is a tab on the edge of your screen; the tray or menu-bar icon, the Dock or the shortcut bring it to the screen your mouse is on.
@@ -73,12 +73,12 @@ Pick the one for your computer. The download starts straight away and is always 
 - Written when the meeting ends: the overview, decisions, action items with owner and due date, and open questions.
 - Made for the kind of meeting: General, Sales call, 1:1, Interview, Stand-up or Lecture, or a type of your own.
 - Brief, Standard or Detailed. Edit any line, tick off action items, assign owners.
-- Share it: copy it, save it as a file or PDF, or send a follow-up: a designed email from the recap, with your note on top, to paste into a draft in your mail app.
+- Share it: copy it, save it as a file or PDF, or send a follow-up: a designed email from the recap, with your note on top, sent from your own Gmail or pasted into a draft in your mail app.
 
 **Snowy Brain**
 - Ask across all your meetings: what was decided on a given day, what someone said, what you owe or were promised.
 - A short brief before your next meeting, from your calendar and past meetings.
-- A knowledge base (beta): add PDF, Word, PowerPoint, text or Markdown files, and answers cite the page.
+- A knowledge base (beta): add PDF, Word, PowerPoint, text or Markdown files; Snowy says what it read and what it left out, and answers can name the document and page.
 
 **People**
 - Everyone from your meetings and invitations in one place, with company, role and your own notes; pick someone to see what's still open with them and your meetings together.
@@ -89,6 +89,7 @@ Pick the one for your computer. The download starts straight away and is always 
 - Connect Google Calendar (read-only) to see your day beside your meetings.
 - Join & start opens the call in the browser profile signed in to your calendar's account and starts Snowy with the meeting's title and invitees.
 - Start recording by itself (off by default): with Settings › General › Start recording automatically on, a call with your microphone on for 10 seconds starts the meeting, with Discard for its first minute, and it ends a minute after the call goes quiet.
+- End when the call ends (on by default): a minute after the Zoom or Teams app goes quiet, the bar counts down 60 seconds, with Keep recording, then ends the meeting and writes its recap.
 
 **The AI you choose**
 - Sign in with a ChatGPT Plus or Pro plan, or use a Claude Pro or Max plan through Claude Code.
@@ -138,7 +139,7 @@ Pick the one for your computer. The download starts straight away and is always 
 3. Follow the installer. Snowy opens when it is done.
 
 **Updates**
-Snowy looks for a new version every hour and when your computer wakes. When one is ready, a notice offers **Update** or **Later**, and nothing restarts during a meeting.
+Snowy looks for a new version every hour and when your computer wakes. When one is ready, a card in the bar and the main window offers **Update now** or **Later**; during a meeting it waits, and Snowy never restarts during a meeting.
 
 <br>
 

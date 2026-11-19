@@ -2,6 +2,21 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc27 · 2026-11-19
+
+Snowy looks right at every text size, and stops recording when your call ends.
+
+- Fits its window at every text size: at Large and Larger text in a smaller window, the sidebar folds to its icons sooner, the follow-up page turns to one column before anything is cut, and From stays on one line. If your text size grew a step in an earlier version, Snowy asks once whether to keep it.
+- Stops when your call ends: with End when the call ends (Settings › General, on), a minute after the Zoom or Teams app goes quiet the bar counts down 60 seconds, with Keep recording and End now; then the meeting ends and its recap is written. Ten minutes with no one speaking gets the same countdown first.
+- Updates in one card, in the bar and the main window: Update now downloads and installs in one press and shows how far it has got; if it fails, the card says why, with Try again. During a meeting a small chip waits beside the bar's state, and Update after this meeting installs once the recap is written. Snowy never restarts during a meeting.
+- Send follow-up from your own Gmail: connect Gmail in Connected apps or on the follow-up page, and From starts on your address; Send sends Snowy's designed email from it, and the recap's button says Follow-up sent. On Google's page, tick "Send email on your behalf", or Snowy can't send. Your mail app is still in From's menu.
+- Knowledge says what happened to every file you drop: added, or left out and why (an old .doc or .ppt, a picture, a folder, a recording, one already there), and a document Snowy couldn't read says what to do next. The newest document comes first, and a filter finds one by name.
+- Answers read as plain text. Show sources in answers, in the bar's ••• menu, a meeting's … menu or Settings › AI, adds numbered sources that name each document and its pages.
+- Recaps of meetings from 15 minutes include the main topics.
+- Snowy has its own Google sign-in: a calendar you connected asks for one new Connect, and nothing is lost. Settings › About says which Google sign-in your copy carries.
+- Fixed: a meeting's row gives its text the row's width; a document Snowy couldn't read says why under its whole row; Settings in a narrow window puts its sections across the top; a tooltip goes once you click.
+- Known limits: until Google has verified Snowy, connecting your calendar or Gmail first shows "Google hasn't verified this app": choose Advanced, then Go to Snowy Meet. Snowy can't read scans yet.
+
 ## 0.1.0-rc26 · 2026-11-18
 
 A new look for the main window, and the bar always one action away: collapsed, it is a tab on the edge of your screen.
