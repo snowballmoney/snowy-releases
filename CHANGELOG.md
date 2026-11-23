@@ -2,6 +2,15 @@
 
 What changed in each Snowy release, newest first. The installers are on the [Releases](https://github.com/snowballmoney/snowy-releases/releases) page.
 
+## 0.1.0-rc28 · 2026-11-23
+
+A small release with two fixes.
+
+- The calendar card in a narrow window: its lines no longer sit on top of each other while you connect Google Calendar, or on the Connect again card shown once after the update to rc27.
+- Join & start in the Snowy bar opens the call in the browser profile signed in to your calendar's account, as Join does everywhere else in Snowy.
+- Two libraries Snowy is built with were updated for security fixes. Snowy did not use the affected parts.
+- Known limits: if your calendar's account is only an added account in a Chrome or Edge profile, Snowy can't tell which profile has it and the link opens in your default browser; choose the profile once in Connected apps, under "Open meeting links in". Until Google has verified Snowy, connecting your calendar or Gmail first shows "Google hasn't verified this app": choose Advanced, then Go to Snowy Meet.
+
 ## 0.1.0-rc27 · 2026-11-19
 
 Snowy looks right at every text size, and stops recording when your call ends.
